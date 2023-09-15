@@ -1,0 +1,152 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .lg{
+    width: 7%;
+}
+
+header .logo{
+    width: 9%;
+    padding-left: 15%;
+}
+
+header h2{
+    padding-left: 35px;
+    color: #ff8c00;
+}
+header .text{
+    width: 16%;
+    height: 10%;
+    padding-left: 22%;
+}
+
+.navbar{
+    background: darkorange;
+    overflow: hidden;
+}
+
+.navbar .menu ul li{
+    list-style: none;
+}
+
+.navbar .menu li a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 95px;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.navbar .menu li a:hover{
+    color: black;
+}
+
+.section1 img{
+    width: 100%;
+}
+
+.section1 .part{
+    display: flex;
+}
+.section1 .part p{
+    text-align: left;
+    border-left: 8px solid darkorange;
+    margin-top: 4.5%;
+    margin-left: 1%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    font-size: 30px;
+    padding: 0% 3%;
+}
+
+.section1 .part img{
+    width: 25%;
+    border-radius: 8px;
+    border-right: 8px solid darkorange;
+    padding-right: 50px;
+    padding-top: 18px;
+    height: 24%;
+}
+
+.section2 p{
+    color: darkorange;
+    font-size: 48px;
+    margin-top: 0%;
+    margin-left: 3%;
+}
+
+.speakers{
+    display:flex;
+}
+    
+.speakers .per1 img{
+    width: 85%;
+    padding-left: 10px;
+    margin-top: 40px;
+}
+.speakers .per1 h2{
+    font-size: 20px;
+    padding-left: 35px;
+}
+
+.speakers .per1 p{
+    font-size: 20px;
+    margin: 40px;
+}
+.speakers .per2 img{
+    width: 32%;
+    margin: 32px;
+    padding-left: 35%;
+}
+.speakers .per2 h2{
+    font-size: 20px;
+    padding-left: 38%;
+}
+
+.speakers .per2 p{
+    font-size: 20px;
+    padding-left: 35%;
+}
+.speakers .per3 img{
+    width: 75%;
+    margin: 19px;
+}
+.speakers .per3 h2{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.speakers .per3 p{
+    font-size: 20px;
+    padding-left: 10px;
+}
+#contact_us {
+    background-image: linear-gradient(black, #603500);
+}
+
+.contact{
+    display: flex;
+}
+.ASI_contact a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.ASI_contact b{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.ASI_contact pre{
+    text-decoration: none;
+    color: antiquewhite;
+}
